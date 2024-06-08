@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .logo {
+    margin-right: auto; /* Met le logo complètement à gauche */
+}
+
+.header-content nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+}
+
+.contact-button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section-white {
+    background: #ffffff;
+}
+
+.section-grey {
+    background: #f7f7f7;
+}
+
+#introduction .intro-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#introduction .intro-content .title {
+    text-align: left;
+}
+
+#introduction .intro-content .contact-button {
+    margin-left: auto;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about .about-text {
+    width: 60%;
+}
+
+#about .about-text p {
+    font-size: 18px;
+}
+
+#about .about-text .cv-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-header nav {
+    margin-left: auto; /* Met le nav complètement à droite */
+}
+
+.portfolio-header nav ul {
+    display: flex;
+    justify-content: flex-end; /* Aligne les éléments à droite à l'intérieur du nav */
+}
+
+.portfolio-header nav ul li {
+    margin-left: 20px; /* Ajoute un espace entre les éléments */
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.services-grid .service {
+    text-align: center;
+}
+
+.services-grid .service i {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-info,
+.contact-form {
+    width: 48%;
+}
